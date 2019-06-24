@@ -1,0 +1,27 @@
+{
+  "name": "atelier-fil-rouge",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start-dev": "nodemon ./bin/start",
+    "start": "node ./bin/start",
+    "test": "mocha --recursive"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.2",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}
